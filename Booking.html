@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="Booking.css">
+</head>
+<body>
+    <h1>Booking</h1>
+    <form action="https://formspree.io/f/mdkoqbob" method="post">
+        <label for="service">Select Service:</label>
+        <select id="service" name="service" required>
+            <option value="Camera">Camera</option>
+            <option value="Video Camera">Video Camera</option>
+            <option value="Drone">Drone</option>
+            <option value="LED Wall">LED Wall</option>
+        </select><br>
+        <label for="date">Booking Date:</label>
+        <input type="date" id="date" name="date" required><br>
+        <label for="details">Additional Details:</label>
+        <textarea id="details" name="details" rows="4" cols="30"></textarea><br>
+        <button type="submit">Book Now</button>
+    </form>
+    <button><a href="index.html">Back to Home</a></button>
+</body>
+</html>
